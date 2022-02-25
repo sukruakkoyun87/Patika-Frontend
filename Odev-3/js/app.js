@@ -87,18 +87,18 @@ let BTN_CONTAINER=document.querySelector(".btn-container");
 
 function menuItems(menu){
 let displayMenu=menu.map(function (item) {
-return `<div class="menu-items col-lg-6 col-sm-12">
-  <img
-  src="${item.img}"
-  alt="${item.title}"
-  class="photo"
-  >
-  <div class="menu-info">
-  <div class="menu-title">
+return `<div class="  menu-items col-lg-6 col-sm-12">
+   <img
+   src="${item.img}"
+   alt="${item.title}"
+   class="photo"
+   >
+   <div class="menu-info">
+   <div class="menu-title">
   <h4>${item.title}</h4>
-  <h4 class="price"> ${item.price}</h4>
-  </div>
-  <div class="menu-text" >${item.desc}</div>
+   <h4 class="price"> ${item.price}</h4>
+   </div>
+   <div class="menu-text" >${item.desc}</div>
   </div>
   </div>`})
   displayMenu=displayMenu.join('')
